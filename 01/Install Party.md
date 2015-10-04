@@ -57,7 +57,6 @@ Node Package Manager (NPM) comes installed with Node. If you followed the above 
 * Open up terminal
 * Run `npm help`
 
-
 - `brew install git`
 - `brew install hub`
 - `brew cleanup`
