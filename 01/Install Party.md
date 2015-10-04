@@ -28,6 +28,12 @@ The web-based service we will be using to store all of your work.
 
 * Sign up for a [free](https://github.com/join) account.
 
+#### [Trello](http://trello.com)
+
+The web-based service we will be using to store track your projects and stay organized.
+
+* Sign up for a [free](https://trello.com/signup) account.
+
 #### [Creating an SSH Key](https://help.github.com/articles/generating-ssh-keys)
 
 You'll need an SSH key when using Github. SSH keys are a way to identify trusted computers, without involving passwords. Walk through the steps in this [tutorial](https://help.github.com/articles/generating-ssh-keys) to create your SSH key and add it to your Github account.
