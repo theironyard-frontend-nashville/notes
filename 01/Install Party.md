@@ -71,5 +71,5 @@ Node Package Manager (NPM) comes installed with Node. If you followed the above 
 `brew cask install --appdir="/Applications" github`
 
 
-# Optionally set atom as the default text editor for git:
+#### Optionally set atom as the default text editor for git:
 `git config --global core.editor "atom --wait"`
