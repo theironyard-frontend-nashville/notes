@@ -58,17 +58,17 @@ Node Package Manager (NPM) comes installed with Node. If you followed the above 
 * Run `npm help`
 
 
-`brew install git`
-`brew install hub`
-`brew cleanup`
-`brew install caskroom/cask/brew-cask`
-`brew tap caskroom/versions`
-`brew cask install --appdir="/Applications" google-chrome`
-`brew cask install --appdir="/Applications" atom`
-`brew cask install --appdir="/Applications" slack`
-`brew cask install --appdir="/Applications" iterm2`
-`brew cask install --appdir="/Applications" screenhero`
-`brew cask install --appdir="/Applications" github`
+- `brew install git`
+- `brew install hub`
+- `brew cleanup`
+- `brew install caskroom/cask/brew-cask`
+- `brew tap caskroom/versions`
+- `brew cask install --appdir="/Applications" google-chrome`
+- `brew cask install --appdir="/Applications" atom`
+- `brew cask install --appdir="/Applications" slack`
+- `brew cask install --appdir="/Applications" iterm2`
+- `brew cask install --appdir="/Applications" screenhero`
+- `brew cask install --appdir="/Applications" github`
 
 
 #### Optionally set atom as the default text editor for git:
