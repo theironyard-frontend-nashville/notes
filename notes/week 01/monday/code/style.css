@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+main {
+  overflow: auto;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.masthead {
+  background: #EDEDED;
+  padding: 15px;
+}
+
+.masthead h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+  padding: 15px;
+  float: left;
+}
+
+.sidebar {
+  float: left;
+}
+
+.sidebar li:hover a {
+  font-weight: bold;
+  color: green;
+}
+
+.articles article {
+  margin: 0 0 40px 0;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid red;
+}
+
+
+.articles h2 {
+  margin: 0;
+  color: red;
+}
+
+.centered {
+  text-align: center;
+}
