@@ -37,7 +37,7 @@
 		* Shift-Command-C – this will copy the measured value onto your clipboard
 
 ## In-Class Code
-[Code that we wrote today](/notes/day-01/code)
+[Code that we wrote today](/notes/week 01/monday/code)
 
 ## Extra
 3:00pm Software Install Help
