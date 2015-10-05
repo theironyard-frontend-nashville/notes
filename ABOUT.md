@@ -67,12 +67,12 @@ There is no commercial software required for the class. We will install a number
 	- Daily JS,
   - JS Weekly,
   - Node Weekly,
-	- Smashing Magazine,
-	- A List Apart
+  - Smashing Magazine,
+  - A List Apart
 
-# Prework
+<!-- # Prework
 
-[/intro/PREWORK.md](/intro/PREWORK.md)
+[/intro/PREWORK.md](/intro/PREWORK.md) -->
 <!-- Here is some prework to prepare for The Iron Yard's Front End Course!
 
 Prework is material to help you get on the same page as others. Do the best you can, and let Aaron know how it's going! :-)
