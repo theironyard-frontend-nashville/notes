@@ -28,7 +28,7 @@
 * [Trees](/units/trees/README.md)
 * [Paths](/units/paths/README.md)
 * [Command Line](/units/command-line/README.md)
-	- `open`, `pwd`, `ls`, `cd`, tab completion, `subl`, `yo tiyfe`, `gulp serve`
+	- `open`, `pwd`, `ls`, `cd`, tab completion, `atom`, `mkdir`
 * [HTML Documents](/units/html-documents/README.md)
 	* W3C Validator
 	* HTML Hint
