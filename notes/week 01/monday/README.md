@@ -1,6 +1,6 @@
 [Table of Contents](/README.md)
 
-# Day 1
+# Monday, Oct 5th
 
 ## Notes
 - Who are we?
