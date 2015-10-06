@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.cats-section {
+  overflow: auto;
+}
+
+.cat {
+  width: 33%;
+  margin: 0;
+  float: left;
+}
+
+.cat-img {
+  width: 100%;
+}
+
+.meta-data {
+  height: 32px;
+}
+
+.byline {
+  display: inline-block;
+}
+
+.byline .author-img {
+  width: 20px;
+}
+
+.byline {
+  float: right;
+}
+
+.author-name {
+  display: inline-block;
+  line-height: 50px;
+}
+
+bit.ly/tiy-fall-notes
