@@ -6,7 +6,7 @@
 
 ## Goals:
 * [CSS Box Model](/units/css-box-model/README.md)
-* [CSS Layout](/units/css-box-model/README.md)
+* [CSS Layout](/units/css-layout/README.md)
 * Basic Git Workflow
 	* Identify yourself, set default editor
 	* Setting up new homework assignments
