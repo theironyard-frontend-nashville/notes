@@ -33,17 +33,17 @@ Once you learn to look past element names and think of their essential meaning, 
 Compare the following lists of my favorite restaurants, and note which markup has more meaning semantically:
 
 ```html
-  <p>Hattie B's, Joey's House of Pizza, Arnold's Meat and Three</p>
+<p>Hattie B's, Joey's House of Pizza, Arnold's Meat and Three</p>
 ```
 
 vs.
 
 ```html
-  <ul>
-    <li>Hattie B's</li>
-    <li>Joey's House of Pizza</li>
-    <li>Arnold's Meat and Three</li>
-  </ul>
+<ul>
+  <li>Hattie B's</li>
+  <li>Joey's House of Pizza</li>
+  <li>Arnold's Meat and Three</li>
+</ul>
 ```
 
 While the first block of code is noticeably simpler, the second block of code has more semantic meaning. We are saying that the content is a list, and then marking each item in the list as a list item.
