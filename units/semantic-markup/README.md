@@ -48,7 +48,7 @@ vs.
 
 While the first block of code is noticeably simpler, the second block of code has more semantic meaning. We are saying that the content is a list, and then marking each item in the list as a list item.
 
-Another example:
+**Another example:**
 
 ```html
 <div>
