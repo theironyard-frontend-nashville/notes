@@ -22,7 +22,7 @@ Why use semantic markup? If CSS can style any element to look like any other ele
 
 ## Presentation versus Semantics
 
-You can apply styles with css to any element, class, or id, so you should prefer good semantic markup over using the elements for display purposes. e.g. Do not use a h5 when an h1 is more semantically appropriate, just because the h5's default font-size is smaller.
+You can apply styles with css to any element, class, or id, so you should prefer good semantic markup over using the elements for display purposes. e.g. Do not use a `h5` when an `h1` is more semantically appropriate, just because the `h5`'s default font-size is smaller.
 
 Once you learn to look past element names and think of their essential meaning, it gets a bit easier to write markup.
 
@@ -30,7 +30,7 @@ Once you learn to look past element names and think of their essential meaning, 
 
 ### What has more semantic meaning?
 
-Compare the following lists of my favorite restaurants and note which markup has more meaning, semantically:
+Compare the following lists of my favorite restaurants, and note which markup has more meaning semantically:
 
 ```html
   <p>Hattie B's, Joey's House of Pizza, Arnold's Meat and Three</p>
@@ -46,8 +46,26 @@ Compare the following lists of my favorite restaurants and note which markup has
 
 While the first block of code is noticeably simpler, the second block of code has more semantic meaning. We are saying that the content is a list, and then marking each item in the list as a list item.
 
+
+## Sectioning Content
 ![Sectioning Chart](sectioning-flowchart.png)
 
+## Common Elements
+There are a few types of HTML elements:
+(This is my take on the most common elements, and is not a complete representation)
+
+- Basic Elements: `html`, `doctype`
+- Document Metadata: `head`, `link`, `meta`, `style`, `title`
+- Content Sectioning: `address`, `article`, `body`, `header`, `footer`, `h1 - h6`, `nav`, `section`
+- Text Content: `ul`, `li`, `div`, `main`, `p`
+- Inline text: `a`, `br`, `span`, `i`
+- Embedded Content: `img`, `iframe`
+- Media: `audio`, `img`, `video`
+- Scripting: `script`, `canvas`
+- Tables: `table`, `thead`, `tfoot`, `tbody`, `th`, `tr`, `td`
+- Forms: `button`, `fieldset`, `input`, `label`, `legend`, `option`, `select`, `textarea`
+
+As you come across resources, tutorials, etc. You may notice some tags that are no longer best practice. Refer to the [MDN Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) Obsolete and deprecated elements table and make sure that you're following the latest best practices.
 
 ## More Resources
 
@@ -57,3 +75,4 @@ While the first block of code is noticeably simpler, the second block of code ha
 * [What does it all mean?](http://diveintohtml5.info/semantics.html)
 * [Problems solved by HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document)
 * [MDN HTML Developers Guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML)
+* [MDN Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
