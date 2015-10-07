@@ -12,6 +12,8 @@
 - Co-workers
 - Future you
 
+![Sectioning Chart](sectioning-flowchart.png)
+
 > Don’t think of `<article>` as a magazine article. Think of it as an article of clothing, an independent entity that can be arranged in conjunction with other articles of clothing, but is a complete thing in itself.
 
 ## More Resources
