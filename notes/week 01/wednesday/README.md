@@ -8,6 +8,7 @@
 * Review Git
 
 ## Goals:
+* [Semantic Markup](/units/semantic-markup)
 * [CSS Selectors](/units/css-selectors)
 * [CSS Specificity](/units/css-specificity)
 * [CSS Centering](/units/css-centering/README.md)
