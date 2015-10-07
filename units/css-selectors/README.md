@@ -2,9 +2,6 @@
 
 ### You should already know about
 * [CSS Introduction](../css-introduction/README.md)
-* [CSS Selectors](../css-selectors/README.md)
-* [CSS Pseudo-classes](../css-pseudo-classes/README.md)
-* [CSS Pseudo-elements](../css-pseudo-elements/README.md)
 
 ## Types of CSS selectors
 
@@ -224,4 +221,3 @@ Notice how we've added a style attribute to the `<p>` tag. The style attribute h
 * [Universal Selectors](http://css.maxdesign.com.au/selectutorial/selectors_universal.htm)
 * [Adjacent Sibling Selectors](http://css.maxdesign.com.au/selectutorial/selectors_adjacent.htm)
 * [Attribute Selectors](http://css.maxdesign.com.au/selectutorial/selectors_attribute.htm)
-
