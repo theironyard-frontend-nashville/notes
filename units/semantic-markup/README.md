@@ -36,6 +36,8 @@ Compare the following lists of my favorite restaurants, and note which markup ha
   <p>Hattie B's, Joey's House of Pizza, Arnold's Meat and Three</p>
 ```
 
+vs.
+
 ```html
   <ul>
     <li>Hattie B's</li>
@@ -45,6 +47,32 @@ Compare the following lists of my favorite restaurants, and note which markup ha
 ```
 
 While the first block of code is noticeably simpler, the second block of code has more semantic meaning. We are saying that the content is a list, and then marking each item in the list as a list item.
+
+Another example:
+
+```html
+<div>
+  <div>My very first blog post!</div>
+  <p>My very first blog post is kind of short.</p>
+  <div>Posted on Wednesday, 10/7/2015</div>
+</div>
+```
+
+vs.
+
+```html
+<article>
+  <header>
+    <h2>My very first blog post!</h2>
+  </header>
+  <section class="post_content">
+    <p>My very first blog post is kind of short.</p>
+  </section>
+  <footer>
+    Posted on <time datetime="2015-10-07 19:00">Wednesday, 10/7/2015</time>
+  </footer>
+</article>
+```
 
 
 ## Sectioning Content
