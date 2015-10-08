@@ -10,7 +10,7 @@
 * [Sass](http://sass-lang.com/guide)
 
 ## In-Class Code
-[Code that we wrote today](/notes/week 01/wednesday/code)
+[Code that we wrote today](/notes/week 01/thursday/code)
 
 ## Homework
 * Ask *and answer* one question on [Breadcrumbs](http://tiy.breadcrumbsqa.com/)
