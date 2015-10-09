@@ -1,0 +1,10 @@
+  body {
+    background: dodgerblue;
+  }
+
+  section {
+    width: 33.33%;
+    margin: 0;
+    float: left;
+  }
+}

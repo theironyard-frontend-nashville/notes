@@ -13,5 +13,4 @@
 [Code that we wrote today](/notes/week 01/thursday/code)
 
 ## Homework
-* Ask *and answer* one question on [Breadcrumbs](http://tiy.breadcrumbsqa.com/)
 * [Surf Paddle Site](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week01/thursday)

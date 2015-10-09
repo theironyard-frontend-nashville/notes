@@ -1,0 +1,21 @@
+/*
+  Mobile Styles
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: pink;
+}
+
+section {
+  padding: 15px;
+  margin: 15px;
+  color: #fff;
+  font-size: 18px;
+  border: 4px solid magenta;
+  border-radius: 6px;
+}

@@ -1,0 +1,55 @@
+@import "fonts";
+
+$mainColor: pink;
+
+
+body {
+  background: $mainColor;
+}
+
+
+@mixin bigBorder() {
+  border: 10px solid red;
+  border-radius: 6px;
+}
+
+
+
+
+.important {
+  height: 50px;
+  padding: 15px;
+  @include bigBorder();
+
+  .inner {
+    background: purple;
+
+    a {
+      span {
+        color: red;
+      }
+    }
+  }
+}
+
+.highlight {
+  color: yellow;
+}
+
+@mixin circle($diameter, $borderColor) {
+  // variables
+  $radius: $diameter / 2;
+  $borderSize: $radius * .10;
+
+  // properties
+  width: $radius;
+  height: $radius;
+  border-radius: 50%;
+  border: $borderSize solid $borderColor;
+}
+
+
+
+.avatar {
+  @include circle(75px, green);
+}

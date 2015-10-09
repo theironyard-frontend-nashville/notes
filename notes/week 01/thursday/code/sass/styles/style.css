@@ -1,0 +1,29 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  color: #000; }
+
+a {
+  color: white; }
+
+body {
+  background: pink; }
+
+.important {
+  height: 50px;
+  padding: 15px;
+  border: 10px solid red;
+  border-radius: 6px; }
+  .important .inner {
+    background: purple; }
+    .important .inner a span {
+      color: red; }
+
+.highlight {
+  color: yellow; }
+
+.avatar {
+  width: 37.5px;
+  height: 37.5px;
+  border-radius: 50%;
+  border: 3.75px solid green; }
