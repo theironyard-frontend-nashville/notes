@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Myriad';
+  src: url('fonts/myriad.otf');
+}
+
+.icon {
+  font-size: 300px;
+  color: dodgerblue;
+  /*font-family: serif;*/
+}
+
+h1 {
+  font-family: 'Myriad';
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}

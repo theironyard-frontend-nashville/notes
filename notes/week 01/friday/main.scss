@@ -1,0 +1,48 @@
+@mixin blue() {
+  color: blue;
+}
+
+h1 {
+  @include blue();
+}
+
+//descendent
+div h1 {
+  color: pink;
+}
+
+//child
+div > h1 {
+  color: red;
+}
+
+//pseudo-selector
+div:first-child {
+  color: orange;
+}
+
+//scss version
+div {
+  //descendent
+  h1 {
+    color: pink;
+  }
+
+  //child
+  & > h1 {
+    color: red;
+  }
+
+  //pseudo-selector
+  &:first-child {
+    color: orange
+  }
+}
+
+div.cool > nav a {
+
+}
+
+div .cool nav {
+
+}
