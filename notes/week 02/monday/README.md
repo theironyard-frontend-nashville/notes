@@ -3,10 +3,10 @@
 # Monday, Oct 12th
 
 ## Notes:
-[HTML inputs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
-[Clearfix Hack](https://css-tricks.com/snippets/css/clear-fix/)
-[Pseudo-elements (::before and ::after)](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
-[Whiteboard](notes/week 02/monday/CAM01644.jpg)
+* [HTML inputs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+* [Clearfix Hack](https://css-tricks.com/snippets/css/clear-fix/)
+* [Pseudo-elements (::before and ::after)](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+* [Whiteboard](notes/week 02/monday/CAM01644.jpg)
 
 ## Goals:
 * HTML Form elements
@@ -14,7 +14,7 @@
 * Intro to JS types
 
 ## In-Class Code
-[Code that we wrote today](/notes/week 01/monday/code)
+[Code that we wrote today](/notes/week 02/monday/code)
 
 ## Extra
 
