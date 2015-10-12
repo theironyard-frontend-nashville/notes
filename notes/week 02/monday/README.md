@@ -19,6 +19,6 @@
 ## Extra
 
 ## Homework
-* Complete [this responsive form assignment](https://github.com/theironyard-frontend-nashville/assignments)
+* Complete [this responsive form assignment](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week02/mon)
 * Write a blog post about your first week at the iron yard.
 * Follow the new homework turn in procedures as outlined [here](https://github.com/theironyard-frontend-nashville/assignments)
