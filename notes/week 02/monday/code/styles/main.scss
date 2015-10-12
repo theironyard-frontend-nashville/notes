@@ -1,0 +1,32 @@
+tr:nth-child(2n + 1) {
+  background: pink;
+}
+
+tr:nth-of-type(2n+1) {
+  color: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.layout {
+    background: pink;
+
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+}
+
+
+
+section {
+    background: turquoise;
+    height: 50px;
+    width: 50px;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    float: left;
+}
