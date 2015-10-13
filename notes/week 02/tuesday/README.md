@@ -21,3 +21,4 @@
 
 ## Homework
 * [T-shirts Shop](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week02/tue)
+* [Variables and types worksheet](https://github.com/TIY-Austin-Front-End-Engineering/javascript-variables)
