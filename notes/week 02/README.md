@@ -13,4 +13,4 @@
 * [10/15/2015 - Thursday - Loops](/notes/week 02/thursday/README.md)
 * [10/14/2015 - Wednesday - HTML/CSS: Grid Systems | JS: Arrays and Objects](/notes/week 02/wednesday/README.md)
 * [10/13/2015 - Tuesday - CSS: Positioning, Transitions | JS: Boolean & Ifs](/notes/week 02/tuesday/README.md)
-* [10/12/2015 - Monday - HTML/CSS: Pseudo-classes/elements, Form Elements | JS: Types, Variables](/notes/week 02/monday/README.md)
+* [10/12/2015 - Monday - HTML/CSS: Pseudo-classes/elements, Form Elements | JS: Primitive Types](/notes/week 02/monday/README.md)

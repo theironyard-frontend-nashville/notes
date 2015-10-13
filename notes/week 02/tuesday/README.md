@@ -5,10 +5,9 @@
 [Table of Contents](/README.md)
 
 ## Notes:
-* Quiz
+* [Quiz](http://goo.gl/forms/2JhIZcJmIw)
 * Review Homework
 * Review git workflow
-
 
 ## Goals:
 * [CSS Transitions](/units/css-transitions)
