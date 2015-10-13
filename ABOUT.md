@@ -18,6 +18,7 @@ William Golden - will@theironyard.com
 Jess Scheuring - jess@theironyard.com
 - twitter: [@nicerhugs](http://twitter.com/nicerhugs)
 - github: [nicerhugs](http://github.com/nicerhugs)
+- calendar: [calendly](https://calendly.com/jess-tiy-1-on-1)
 
 # Campus Director Contact Info
 Josh Cournoyer - josh@theironyard.com
