@@ -2,23 +2,23 @@
 
 # Monday, Oct 12th
 
-
 ## Notes:
-* Quiz
-* Review Homework
-
+* [HTML inputs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+* [Clearfix Hack](https://css-tricks.com/snippets/css/clear-fix/)
+* [Pseudo-elements (::before and ::after)](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+* [Whiteboard](notes/week 02/monday/CAM01644.jpg)
 
 
 ## Goals:
 * [CSS Pseudo-Classes](/units/css-pseudo-classes)
 * [CSS Pseudo-Elements](/units/css-pseudo-elements)
 * [Form Elements](/units/form-elements)
-* Intro to JS 1 - primitive types
+* Intro to JS Types
 
 ## In-Class Code
-[Code that we wrote today](/notes/day-05/code)
+[Code that we wrote today](/notes/week 02/monday/code)
 
 ## Homework
-* Ask *and answer* one question on [Breadcrumbs](http://tiy.breadcrumbsqa.com/)
-* [Variables and types worksheet](https://github.com/TIY-Austin-Front-End-Engineering/javascript-variables)
-* [Responsive Form](https://github.com/TIY-Austin-Front-End-Engineering/responsive-form)
+* Complete [this responsive form assignment](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week02/mon)
+* Write a blog post about your first week at the iron yard.
+* Follow the new homework turn in procedures as outlined [here](https://github.com/theironyard-frontend-nashville/assignments)
