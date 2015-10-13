@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+header.main {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  padding: 15px;
+  background: #000;
+  color: #ccc;
+  z-index: 9999999;
+}
+
+main {
+  position: relative;
+  top: 60px;
+  border-top: 5px solid pink;
+}
+.box {
+  background: pink;
+  padding: 15px;
+  border: 4px solid gray;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  right: 15px;
+}
+
+.inner {
+  background: red;
+  padding: 15px;
+  border: 4px solid white;
+
+  // position: absolute;
+  // bottom: 10px;
+  // left: 50px;
+}
