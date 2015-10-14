@@ -2,8 +2,6 @@
 
 # Tuesday, Oct 13th
 
-[Table of Contents](/README.md)
-
 ## Notes:
 * [Quiz](http://goo.gl/forms/2JhIZcJmIw)
 * Review Homework
@@ -13,7 +11,7 @@
 * [CSS Transitions](/units/css-transitions)
 * [CSS Positioning](/units/css-positioning)
 
-* Intro to JS 2 - variables, boolean logic, if statements, truthy / falsey, ternary operator
+* Intro to JS 2 - variables, boolean logic, if statements
 
 ## In-Class Code
 [Code that we wrote today](/notes/week 02/tuesday/code)
