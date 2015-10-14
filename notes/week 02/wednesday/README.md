@@ -1,7 +1,12 @@
 [Table of Contents](/README.md)
 
 # Wednedsay, Oct 14th
-* Variables challenge:
+
+## Goals:
+* [Grid Systems](/units/grid-systems)
+* Intro to JS  - if statements - continued, operators, truthy / falsey, ternary operator, arrays and objects
+
+## Variables challenge:
 
 ```js
 var a = 5;
@@ -18,11 +23,6 @@ Write expressions using only operators and the above variables that evaluate to:
 3. NaN
 4. "75”
 ```
-* Review Homework
-
-## Goals:
-* [Grid Systems](/units/grid-systems)
-* Intro to JS  - if statements - continued, operators, truthy / falsey, ternary operator, arrays and objects
 
 ## In-Class Code
 [Code that we wrote today](/notes/week 02/wednesday/code)
