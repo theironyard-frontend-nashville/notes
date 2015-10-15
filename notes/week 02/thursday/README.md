@@ -2,6 +2,9 @@
 
 # Thursday, Oct 15th
 
+## Challenge
+* [Grid Challenge](/notes/week 02/thursday/code/challenge)
+
 ## Goals:
 * Introduction to Javascript
   * Types / Variables - Review
