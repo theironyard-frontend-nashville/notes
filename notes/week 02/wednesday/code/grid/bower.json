@@ -1,0 +1,19 @@
+{
+  "name": "grid",
+  "version": "0.0.0",
+  "homepage": "https://github.com/theironyard-frontend-nashville/notes",
+  "authors": [
+    "William Golden <egdelwonk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.7.2"
+  }
+}
