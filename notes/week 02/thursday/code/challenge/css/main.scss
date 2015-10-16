@@ -1,3 +1,131 @@
 @import '../bower_components/normalize.css/normalize';
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/neat/app/assets/stylesheets/neat';
+
+
+html, body {
+  height: 100%;
+}
+header.main {
+  @include outer-container(100%);
+  background: pink;
+  padding: 25px;
+  transition: .2s background, .2s padding;
+
+  &:hover {
+    background: #ccc;
+    padding: 55px;
+    cursor: pointer;
+    h1 {
+      text-shadow: 10px -20px 0px rgba(142, 142, 142, 0.13);
+    }
+  }
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #F7F7F7;
+  text-shadow: 1px -2px 0px rgba(142, 142, 142, 0.23);
+  transition: .5s text-shadow;
+}
+
+
+.wrapper {
+  height: 100%;
+  @include outer-container(100%);
+}
+
+main {
+  @include span-columns(10);
+}
+
+.sidebar {
+  @include span-columns(2);
+  @include omega;
+  padding: 25px 0;
+  height: 100%;
+
+  nav {
+    @include row();
+    @include omega;
+    a {
+      @include span-columns(12 of 12);
+      @include omega;
+      color: #444;
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+      transition: .2s background;
+      text-shadow: 1px -2px 0px rgba(142, 142, 142, 0.23);
+    }
+
+    a:hover {
+      background: #ddd;
+      color: #000;
+    }
+  }
+}
+
+.featured {
+  @include span-columns(10 of 10);
+  @include omega;
+  padding: 25px;
+  background: #595757;
+  color: #fff;
+  line-height: 2.0em;
+  font-size: 1.7em;
+
+  a {
+    color: pink;
+    text-decoration: none;
+  }
+
+  footer {
+    font-size: .6em;
+    padding: 15px 0;
+    border-top: 3px solid #444;
+  }
+}
+
+
+.suggested {
+  @include row()
+  @include omega;
+
+  background: #F3F3F3;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  .suggestion {
+
+    margin: 0;
+    margin-bottom: 50px;
+    @include span-columns(3)
+    @include omega(4n);
+
+    img {
+      width: 100%;
+      padding: 15px;
+      background: #fff;
+      display: block;
+    }
+
+    figcaption {
+      text-align: center;
+      font-weight: bold;
+      background: #fff;
+      padding: 15px;
+    }
+  }
+}
+
+
+footer.main {
+  @include span-columns(10);
+  padding: 25px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
