@@ -37,7 +37,7 @@ if (!=) {
 } else {
   console.log('You entered the else statement');
 }
-
+```
 
 ## In-Class Code
 [Code that we wrote today](/notes/week 03/monday/code)
