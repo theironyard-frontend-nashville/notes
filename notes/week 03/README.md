@@ -17,7 +17,6 @@
   ## Homework ##
   Thursday, Calculator: https://github.com/theironyard-frontend-nashville/assignments/tree/master/Assignment%2005
   Wednesday, Koans: https://github.com/mrdavidlaing/javascript-koans/blob/master/koans/AboutInheritance.js
-  Tuesday, Etsy Map Reduce: https://github.com/theironyard-frontend-nashville/assignments/tree/master/Assignment%2007%20*
-  Monday, Function Practice:
-  https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week03/mon
+  Tuesday, Etsy Map Reduce: https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week03/tue
+  Monday, Function Practice: https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week03/mon
 -->
