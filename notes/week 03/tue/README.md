@@ -125,7 +125,7 @@ food.forEach(function(foodItem, i, array) {
 ```
 
 ### Code from today
-[code we wrote in class](https://github.com/theironyard-frontend-nashville/notes/tree/cohort2/week03/tue/code)
+[code we wrote in class](https://github.com/theironyard-frontend-nashville/notes/tree/cohort2/notes/week%2003/tue/code)
 
 ### Homework
 [homework](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week03/tue)

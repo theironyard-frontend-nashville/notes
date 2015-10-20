@@ -9,7 +9,7 @@
 * [10/23/2015 - Friday - Lab](/ABOUT.md#Schedule)
 * [10/22/2015 - Thursday - Interacting with the DOM, Events](/notes/week 03/thursday/README.md)
 * [10/21/2015 - Wednesday - Functions, Constructors, Inheritance Review, Unit Testing](/notes/week 03/wednesday/README.md)
-* [10/20/2015 - Tuesday - Inheritance, Object Methods, Iteration (Enumerables), Map/Reduce/Filter](/notes/week 03/tuesday/README.md)
+* [10/20/2015 - Tuesday - Inheritance, Object Methods, Iteration (Enumerables), Map/Reduce/Filter](/notes/week 03/tue/README.md)
 * [10/19/2015 - Monday - Functions, Constructors](/notes/week 03/monday/README.md)
 
 
