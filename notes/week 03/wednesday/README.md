@@ -24,7 +24,7 @@ console.assert(twoPlusTwo === 4)
 
 
 ```js
-// Challenge one 
+// Challenge one
 //
 // Given a non-negative integer, return an array / a list of the individual digits in order.
 //
@@ -72,7 +72,7 @@ console.assert(digitize(8675309)[6] === 9)
 * [Unit testing](/units/unit-testing)
 
 ## In-Class Code
-[Code that we wrote today](/notes/week 03/wed/code)
+[Code that we wrote today](/notes/week 03/wednesday/code)
 
 ## Homework
 * [Javascript Koans](https://github.com/mrdavidlaing/javascript-koans)
