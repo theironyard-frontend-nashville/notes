@@ -155,3 +155,18 @@ console.log(a.name);
 
 a.setName(); // should log error
 console.log(a.getName());
+
+
+function avg(){
+  var sum = 0;
+
+  for (var x in arguments) {
+    if (arguments.hasOwnProperty(x)) {
+      sum += arguments[x];
+    }
+  }
+  return sum / arguments.length;
+}
+
+var x = avg(2, 4, 6, 8);
+console.log(x);
