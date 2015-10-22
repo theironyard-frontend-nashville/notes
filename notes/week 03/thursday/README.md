@@ -6,20 +6,51 @@
 
 Using the list of friends below, write code that returns the following values:
 
-1. A float of the average age of the friends
-2. An array of friend's that are older than 25
-3. An array of friends that all enjoy gardening as a hobby
-4. An array of friends that do not have football as a hobby
-5. An array of each friend's name, reversed. For example: 'will' -> 'lliw'
+1. An array of each friend's name, reversed. For example: 'will' -> 'lliw'
+2. A float of the average age of the friends (Bonus Points)
+3. An array of friend's that are older than 25 (Bonus Points)
+4. An array of friends that all enjoy gardening as a hobby (Bonus Points)
+5. An array of friends that do not have football as a hobby (Bonus Points)
+
 
 ```js
-var friends = [
-  {name: 'will', age: 31, hobbies: ['painting, drawing', 'woodworking', 'gardening']},
-  {name: 'mike', age: 31, hobbies: ['painting', 'drawing', 'photography', 'programming']},
-  {name: 'chris', age: 30, hobbies: ['fishing', 'motocross', 'football']},
-  {name: 'dylan', age: 21, hobbies: ['football', 'baseball']},
-  {name: 'paige', age: 26, hobbies: ['dancing', 'gardening']}
-];
+  var friends = [
+    {name: 'will', age: 31, hobbies: ['painting, drawing', 'woodworking', 'gardening']},
+    {name: 'mike', age: 31, hobbies: ['painting', 'drawing', 'photography', 'programming']},
+    {name: 'chris', age: 30, hobbies: ['fishing', 'motocross', 'football']},
+    {name: 'dylan', age: 21, hobbies: ['football', 'baseball']},
+    {name: 'paige', age: 26, hobbies: ['dancing', 'gardening']}
+  ];
+  // #1 - An array of each friend's name, reversed. For example: 'will' -> 'lliw'
+  var revereName = function(total, friend){
+
+  };
+  var answer5 = friends.map(revereName);
+
+  // #2 - A float of the average age of the friends
+  var averageAge = function(total, friend){
+
+  };
+  var answer1 = friends.reduce(averageAge) / friends.length;
+
+  // #3 - An array of friend's that are older than 25
+  var olderThan25 = function(friend){
+
+  };
+  var answer2 = friends.filter(olderThan25);
+
+
+  // #4 - An array of friends that all enjoy gardening as a hobby
+  var lovesGardening = function(friend){
+
+  };
+  var answer3 = friends.filter(lovesGardening);
+
+  // #5 - An array of friends that do not have football as a hobby
+  var dislikesFootball = function(friend){
+
+  };
+  var answer4 = friends.filter(dislikesFootball);
 ```
 
 
