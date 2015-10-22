@@ -4,7 +4,7 @@
 
 ## Challenge:
 
-Using the list of friends below, write code that solves the returns the following values:
+Using the list of friends below, write code that returns the following values:
 
 1. A float of the average age of the friends
 2. An array of friend's that are older than 25
