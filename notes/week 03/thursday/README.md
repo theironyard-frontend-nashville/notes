@@ -6,11 +6,11 @@
 
 Using the list of friends below, write code that solves the returns the following values:
 
-* 1) A float of the average age of the friends
-* 2) An array of friend's that are older than 25
-* 3) An array of friends that all enjoy gardening as a hobby
-* 4) An array of friends that do not have football as a hobby
-* 5) An array of each friend's name, reversed. For example: 'will' -> 'lliw'
+1. A float of the average age of the friends
+2. An array of friend's that are older than 25
+3. An array of friends that all enjoy gardening as a hobby
+4. An array of friends that do not have football as a hobby
+5. An array of each friend's name, reversed. For example: 'will' -> 'lliw'
 
 ```js
 var friends = [
