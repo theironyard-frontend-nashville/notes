@@ -25,32 +25,32 @@ Using the list of friends below, write code that returns the following values:
   var revereName = function(total, friend){
 
   };
-  var answer5 = friends.map(revereName);
+  var answer1 = friends.map(revereName);
 
   // #2 - A float of the average age of the friends
   var averageAge = function(total, friend){
 
   };
-  var answer1 = friends.reduce(averageAge) / friends.length;
+  var answer2 = friends.reduce(averageAge) / friends.length;
 
   // #3 - An array of friend's that are older than 25
   var olderThan25 = function(friend){
 
   };
-  var answer2 = friends.filter(olderThan25);
+  var answer3 = friends.filter(olderThan25);
 
 
   // #4 - An array of friends that all enjoy gardening as a hobby
   var lovesGardening = function(friend){
 
   };
-  var answer3 = friends.filter(lovesGardening);
+  var answer4 = friends.filter(lovesGardening);
 
   // #5 - An array of friends that do not have football as a hobby
   var dislikesFootball = function(friend){
 
   };
-  var answer4 = friends.filter(dislikesFootball);
+  var answer5 = friends.filter(dislikesFootball);
 ```
 
 
