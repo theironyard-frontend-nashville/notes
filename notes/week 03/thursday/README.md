@@ -22,10 +22,10 @@ Using the list of friends below, write code that returns the following values:
     {name: 'paige', age: 26, hobbies: ['dancing', 'gardening']}
   ];
   // #1 - An array of each friend's name, reversed. For example: 'will' -> 'lliw'
-  var revereName = function(total, friend){
+  var reverseName = function(friend){
 
   };
-  var answer1 = friends.map(revereName);
+  var answer1 = friends.map(reverseName);
 
   // #2 - A float of the average age of the friends
   var averageAge = function(total, friend){
