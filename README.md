@@ -10,6 +10,7 @@ Oct 5th 2015 - Jan 8th 2016
 
 
 ## Weekly
+* [Week 4: jQuery](/notes/week 04/README.md)
 * [Week 3: Advanced JS](/notes/week 03/README.md)
 * [Week 2: Advanced HTML/CSS, Basic JS](/notes/week 02/README.md)
 * [Week 1: Basic HTML/CSS](/notes/week 01/README.md)
