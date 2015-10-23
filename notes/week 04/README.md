@@ -1,4 +1,4 @@
-# Week 3: Advanced JS
+# Week 4: jQuery
 
 ## Week Goals:
 - Demonstrate understanding of DOM Manipulation (with Vanilla JS and jQuery)
@@ -8,7 +8,7 @@
 - Demonstrate understanding of unit testing, functional testing, integration testing
 
 
-### Week 4: jQuery
+
 * [10/30/2015 - Friday - Lab](/ABOUT.md#Schedule)
 * [10/29/2015 - Thursday - Review, Unit Testing](/notes/week 03/thursday/README.md)
 * [10/28/2015 - Wednesday - AJAX Review, Event Loop](/notes/week 03/wednesday/README.md)
