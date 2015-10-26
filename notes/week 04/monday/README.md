@@ -6,7 +6,9 @@
 ## Challenge:
 ```js
 
-// Implement `Array.from()`, which takes an "array-like" object (such as an ElementList from `querySelectorAll` or an `arguments` object).
+// Implement `Array.from()`, which takes an "array-like" object 
+// (such as an ElementList from `querySelectorAll` or an `arguments` object),
+// and converts it to a real array. 
 
 Array.from = function(obj){
     // ...
