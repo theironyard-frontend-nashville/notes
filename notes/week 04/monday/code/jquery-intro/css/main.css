@@ -1,0 +1,5 @@
+.box {
+  transition: .5s border; }
+
+.important {
+  border: 10px solid red; }

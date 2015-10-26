@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+}
+
+.calculator {
+  margin: 0 auto;
+  width: 500px;
+
+  button {
+    width: 25%;
+    color: #FEFEFE;
+    font-size: 18px;
+    margin: 0;
+    padding: 15px;
+    background: #68B25B;
+    display: block;
+    float: left;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid #81BF76;
+    border-bottom: 1px solid #81BF76;
+  }
+
+  .answer {
+    width: 75%;
+    padding: 15px;
+  }
+
+  .operator {
+    background: #85C07B;
+    color: #000;
+    border: none;
+    outline: none;
+    display: block;
+  }
+
+  .row {
+    width: 100%;
+    float: left;
+  }
+
+  .row::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  .clear, .answer, .operator, .digit, .decimal {
+    height: 80px;
+  }
+}
