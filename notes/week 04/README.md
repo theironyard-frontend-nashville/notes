@@ -10,10 +10,10 @@
 
 
 * [10/30/2015 - Friday - Lab](/ABOUT.md#Schedule)
-* [10/29/2015 - Thursday - Review, Unit Testing](/notes/week 03/thursday/README.md)
-* [10/28/2015 - Wednesday - AJAX Review, Event Loop](/notes/week 03/wednesday/README.md)
-* [10/27/2015 - Tuesday - AJAX, HTTP Verbs, `this`](/notes/week 03/tuesday/README.md)
-* [10/26/2015 - Monday - Intro jQuery](/notes/week 03/monday/README.md)
+* [10/29/2015 - Thursday - Review, Unit Testing](/notes/week 04/thursday/README.md)
+* [10/28/2015 - Wednesday - AJAX Review, Event Loop](/notes/week 04/wednesday/README.md)
+* [10/27/2015 - Tuesday - AJAX, HTTP Verbs, `this`](/notes/week 04/tuesday/README.md)
+* [10/26/2015 - Monday - Intro jQuery](/notes/week 04/monday/README.md)
 
 <!--
   ## Homework ##
