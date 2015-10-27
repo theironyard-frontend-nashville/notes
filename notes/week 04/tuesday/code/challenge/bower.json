@@ -1,0 +1,23 @@
+{
+  "name": "challenge",
+  "version": "0.0.0",
+  "homepage": "https://github.com/theironyard-frontend-nashville/notes",
+  "authors": [
+    "Jess Scheuring <jscheuring@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
