@@ -56,63 +56,63 @@ var confusing = {
 
 // * Problem 1
 // whatIsThis('hello', 'world');
-// * "this" is ...
-// * because ...
+// * "this" is ... the Window object
+// * because ... our context for running the function was the whole Window environment, we weren't inside anything else
 
 
 
 
 // * Problem 2
 window.whatIsThis('hello', 'world');
-// * "this" is ...
-// * because ...
+// * "this" is ... Window object
+// * because ... context hasn't changed, we're still in thw window context
 
 
 
 
 // * Problem 3
 // inAnObject.test1('face', 'book');
-// * "this" is ...
-// * because ...
+// * "this" is ... the ojbect we were inside of (inAnObject)
+// * because ... our context is now an object
 
 
 
 
 // * Problem 4
 // inAnObject.anotherObject.test1('twitter', 'book');
-// * "this" is ...
-// * because ...
+// * "this" is ... broken
+// * because ... test1 isn't a property of anotherObject
 
 
 
 
 // * Problem 5
 // inAnObject.anotherObject.test2('twitter', 'book');
-// * "this" is ...
-// * because ...
+// * "this" is ... anotherObject
+// * because ... we're inside this scope when we run the function
 
 
 
 
 // * Problem 6
 // whatIsThis.call();
-// * "this" is ...
-// * because ...
+// * "this" is ... the Window object
+// * because ... because we didn't define a context and that is the default context
 
 
 
 
 // * Problem 7
 // whatIsThis.call(trickyTricky);
-// * "this" is ...
-// * because ...
+// * "this" is ... trickyTricky
+// * because ... because we set our context to trickyTricky with the call function
 
 
 
 
 // * Problem 8
 // whatIsThis.call(trickyTricky, 'nice', 'job');
-// * "this" is ...
+// * "this" is ... trickyTricky
 // * because ...
 
 
@@ -136,7 +136,7 @@ window.whatIsThis('hello', 'world');
 
 // * Problem 11
 // whatIsThis.apply(trickyTricky);
-// * "this" is ...
+// * "this" is ... 
 // * because ...
 
 
@@ -152,7 +152,7 @@ window.whatIsThis('hello', 'world');
 
 // * Problem 13
 // whatIsThis.apply(confusing, 'nice', 'job');
-// * "this" is ...
+// * "this" is ... 
 // * because ...
 
 
