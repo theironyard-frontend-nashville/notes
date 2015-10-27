@@ -29,6 +29,8 @@ Let's build this together:
 
 ## Homework
 
+Your assigment is to [recreate your github profile repos tab](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week04/tue)
+
 ### GitHub API Access (avoiding rate limit issues)
 
 1. Create a Personal access token (https://github.com/settings/applications)
