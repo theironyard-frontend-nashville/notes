@@ -1,35 +1,23 @@
-[Table of Contents](/README.md)
+# Week 4: jQuery
 
-# Tuesday, Oct 27th
-
-## Challenge:
-```js
-// Write a method complements(array, number)
-// which returns true if any two numbers in
-// the array sum to the number.
-
-function complements(){}
-
-var odds = [1, 3, 5, 7, 9, 11]
-var ints = [-11, 40, 17, -5, -1, -11, 2, 9]
-
-console.assert( complements(odds, 4) === true )
-console.assert( complements(odds, 1) === false )
-console.assert( complements(ints, -22) === true )
-console.assert( complements(ints, 16) === true )
-console.assert( complements(ints, 40) === false )
-```
+## Week Goals:
+- Demonstrate understanding of DOM Manipulation (with Vanilla JS and jQuery)
+- Demonstrate understanding of HTTP Verbs (GET, POST, PUT, PATCH, DELETE, OPTION)
+- Demonstrate understanding of the Browser Event Loop (Async Code)
+- Demonstrate understanding of XHR (AJAX) requests and parsing responses from a server
+- Demonstrate understanding of unit testing, functional testing, integration testing
 
 
 
-## Goals:
-* In class chat example
-* Review $.get(), $.post, $.ajax, $.done(), $.fail(), $.then()
+* [10/30/2015 - Friday - Lab](/ABOUT.md#Schedule)
+* [10/29/2015 - Thursday - Review, Unit Testing](/notes/week 04/thursday/README.md)
+* [10/28/2015 - Wednesday - AJAX Review, Event Loop](/notes/week 04/wednesday/README.md)
+* [10/27/2015 - Tuesday - AJAX, HTTP Verbs, `this`](/notes/week 04/tuesday/README.md)
+* [10/26/2015 - Monday - Intro jQuery](/notes/week 04/monday/README.md)
 
-
-## In-Class Code
-[Code that we wrote today](/notes/week 04/wednesday/code)
-
-## Homework
-
-* Continue working on your homework from Tuesday.
+<!--
+  ## Homework ##
+  Thursday, Calculator: https://github.com/theironyard/js-assignments/tree/3c3b8671a9945e85dfa7a13b30d9ad3cb5db9592/APIs/etsy
+  Tuesday & Wednesday, Github: https://github.com/theironyard/js-assignments/tree/3c3b8671a9945e85dfa7a13b30d9ad3cb5db9592/APIs/github-api-profile
+  Monday, Function Practice: https://github.com/theironyard/js-assignments/tree/3c3b8671a9945e85dfa7a13b30d9ad3cb5db9592/jQuery%20%26%20DOM/js-intro-dom-calculator
+-->
