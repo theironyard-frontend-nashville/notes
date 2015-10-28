@@ -25,6 +25,7 @@ console.assert( complements(ints, 40) === false )
 ## Goals:
 * In class chat example
 * Review $.get(), $.post, $.ajax, $.done(), $.fail(), $.then()
+* Review the Event Loop
 
 
 ## In-Class Code
