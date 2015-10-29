@@ -23,6 +23,7 @@ console.assert(disemvowel("This website is for losers LOL!") === "Ths wbst s fr 
 
 ## Goals:
 * Review jQuery Basics, AJAX
+* Introduction to Unit Testing
 
 ## In-Class Code
 [Code that we wrote today](/notes/week 04/thursday/code)
