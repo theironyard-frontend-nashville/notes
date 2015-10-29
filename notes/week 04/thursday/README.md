@@ -22,12 +22,13 @@ console.assert(disemvowel("This website is for losers LOL!") === "Ths wbst s fr 
 
 
 ## Goals:
-* Review jQuery Basics, AJAX
-* Introduction to Unit Testing
+* Review: Array map/reduce/filter/forEach
+* Introduction to Dates, Moment.js
+
 
 ## In-Class Code
 [Code that we wrote today](/notes/week 04/thursday/code)
 
 ## Homework
 
-* [Etsy Search](https://github.com/theironyard-frontend-nashville/assignments/blob/cohort2/week04/tue/README.md)
+* Continue working on github homework using the reviewed techniques we reviewed today.
