@@ -17,7 +17,7 @@
 
 <!--
   ## Homework ##
-  Thursday, Calculator: https://github.com/theironyard/js-assignments/tree/3c3b8671a9945e85dfa7a13b30d9ad3cb5db9592/APIs/etsy
+  Thursday, Calculator: https://github.com/theironyard-frontend-nashville/assignments/blob/cohort2/week04/tue/README.md
   Tuesday & Wednesday, Github: https://github.com/theironyard/js-assignments/tree/3c3b8671a9945e85dfa7a13b30d9ad3cb5db9592/APIs/github-api-profile
   Monday, Function Practice: https://github.com/theironyard/js-assignments/tree/3c3b8671a9945e85dfa7a13b30d9ad3cb5db9592/jQuery%20%26%20DOM/js-intro-dom-calculator
 -->
