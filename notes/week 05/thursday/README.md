@@ -4,7 +4,7 @@
 
 ## Challenge:
 
-[credit card validator](/notes/week 05/thursday/code/challenge)
+[credit card validator](/notes/week 05/thursday/code/challenge.js)
 
 ## Goals:
 * Review [issues](https://github.com/theironyard-frontend-nashville/notes/issues) and other questions
