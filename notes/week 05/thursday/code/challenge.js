@@ -14,7 +14,7 @@
 
 // Step 0: 4 4 0 8 0 4 1 2 3 4 5  6 7  8 9  3
 // Step 1: 8 4 0 8 0 4 2 2 6 4 10 6 14 8 18 3
-// Step 2: 8+4+0+8+0+4+2+2+6+4+1+0+6+1+4+8+1+8+3 = 70
+// Step 2: 8+4+0+8+0+4+2+2+6+4+10+6+14+8+18+3 = 70
 // Step 3: 70 % 10 == 0
 
 // That card is valid.
@@ -23,7 +23,7 @@
 
 // Step 0: 4 4 1 7 1 2 3 4 5  6 7  8 9  1 1 2
 // Step 1: 8 4 2 7 2 2 6 4 10 6 14 8 18 1 2 2
-// Step 2: 8+4+2+7+2+2+6+4+1+0+6+1+4+8+1+8+1+2+2 = 69
+// Step 2: 8+4+2+7+2+2+6+4+10+6+14+8+18+1+2+2 = 69
 // Step 3: 69 % 10 != 0
 
 // Write a function `isValidCC(ccnum)` that takes a string and returns true if the credit card entered is valid, false otherwise.
