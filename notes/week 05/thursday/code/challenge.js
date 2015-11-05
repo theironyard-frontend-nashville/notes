@@ -28,10 +28,39 @@
 
 // Write a function `isValidCC(ccnum)` that takes a string and returns true if the credit card entered is valid, false otherwise.
 
-function isValid(ccnum) {}
+function isValid(ccnum) {
+//   var noSpaces = ccnum.replace(/\s/g, '');
+//   var arrCCnum = noSpaces.split('');
+//   var someDoubled = arrCCnum.map(function(current, index, array){
+//     if (index % 2 === 0) {
+//       return Number(current) * 2;
+//     } else {
+//       return Number(current);
+//     }
+//   });
+//   var total = someDoubled.reduce(function(rvs, current, index, array){
+//     return rvs+current;
+//   }, 0);
+//   var divByTen = total % 10 === 0;
+//   return divByTen;
+
+  return ccnum
+     .replace(/\s/g, '')
+     .split('')
+     .map(function(current, index, array){
+        if (index % 2 === 0) {
+        return Number(current) * 2;
+        } else {
+        return Number(current);
+      }
+      })
+     .reduce(function(rvs, current, index, array){
+        return rvs+current;
+      }, 0) % 10 === 0;
+}
 
 // tests
 // ---
 console.assert(isValid("4408 0412 3456 7893") === false)
-console.assert(isValid("5000 0000 0000 0000") === false)
+console.assert(isValid("5000 0000 0000 0000") === true)
 console.assert(isValid("4408 0412 3456 2193") === true)
