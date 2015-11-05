@@ -7,7 +7,7 @@
 [credit card validator](/notes/week 05/thursday/code/challenge)
 
 ## Goals:
-* Review GH issues and other questions
+* Review [issues](https://github.com/theironyard-frontend-nashville/notes/issues) and other questions
 * Basic overview of git commands/group workflow
 * Learn TDD
 
