@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a href="#">home</a>
+    <a href="#login">login</a>
+    <a href="#signup">signup</a>
+    <a href="#user/5">user/5</a>
+
+    <main>
+
+    </main>
+
+    <script type="text/template" id="tweetsTemplate">
+      <input type="text" name="tweet" value="" placeholder="twit it" id="tweetInput">
+    </script>
+    <script type="text/template" id="loginTemplate">
+      <input id="loginEmail" type="text" name="username" value="" placeholder="email">
+      <input id="loginPassword" type="password" name="password" value="" placeholder="password">
+      <input id="loginBtn" type="submit" name="send" value="Log In">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+    <script src="main.js"></script>
+    <script src="models/session.js"></script>
+    <script src="models/tweet.js"></script>
+    <script src="views/loginView.js"></script>
+    <script src="views/tweetsView.js"></script>
+    <script src="collections/tweets.js"></script>
+  </body>
+</html>
