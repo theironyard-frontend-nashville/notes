@@ -10,6 +10,7 @@ Oct 5th 2015 - Jan 8th 2016
 
 
 ## Weekly
+* [Week 6: Backbone](/notes/week 06/README.md)
 * [Week 5: Backbone](/notes/week 05/README.md)
 * [Week 4: jQuery](/notes/week 04/README.md)
 * [Week 3: Advanced JS](/notes/week 03/README.md)
