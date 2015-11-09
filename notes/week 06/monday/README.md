@@ -1,6 +1,6 @@
 [Table of Contents](/README.md)
 
-# Monday, Nov 6th
+# Monday, Nov 9th
 
 ## Goals:
 * Review Backbone/homework
