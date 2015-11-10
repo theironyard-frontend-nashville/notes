@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Backbone</title>
+
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        font-family: 'Helvetica', sans-serif;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: -webkit-linear-gradient(left, #B6FFEE 0%, #B1FFED 0, #2194D8 100%);
+      }
+
+      header {
+        padding: 15px;
+        text-align: center;
+        color: #444;
+        font-size: 18px;
+        background: -webkit-linear-gradient(top, #fff 0, rgba(255,255,255,0) 300px);
+      }
+
+      .sidebar, main {
+        float: left;
+      }
+
+      .wrapper {
+        height: 100%;
+      }
+      .wrapper::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      .sidebar {
+        width: 20%;
+        padding: 15px;
+        background: #ddd;
+        height: 100%;
+      }
+
+      main {
+        height: 100%;
+        width: 80%;
+        padding: 15px;
+        background: -webkit-linear-gradient(top, #4a535a 0, rgba(56, 63, 68, 0.30) 300px);
+      }
+
+      .box {
+        display: none;
+      }
+
+      .expanded .box {
+        display: block;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      Our blog
+
+      <a href="#" class="raptor">Don't press me.</a>
+    </header>
+
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img src="img/ajax-loader.gif" alt="loading....">
+      </aside>
+
+      <main>
+        <img src="img/ajax-loader.gif" alt="loading....">
+      </main>
+    </div>
+
+    <script type="text/template" id="homePageTemplate">
+      <h1>Welcome to our blog!
+    </script>
+
+    <script type="text/template" id="postListTemplate">
+      <h2>Posts</h2>
+      <a href="#">Go Home</a>
+      <ul>
+        <% _.forEach(posts, function(post){ %>
+          <li>
+            <a class="expand" href="#post/<%= post._id %>"><%= post.title %></a>
+            <div class="box">
+                <%= _.trunc(post.body, 100) %>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+    </script>
+
+    <script type="text/template" id="postDetailTemplate">
+      <h1><%= post.title %></h1>
+      <p><%= post.body %></p>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+    <script src="js/raptorize/js/jquery.raptorize.2.0.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
