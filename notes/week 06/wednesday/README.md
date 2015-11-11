@@ -1,16 +1,16 @@
 [Table of Contents](/README.md)
 
-# Tuesday, Nov 10th
+# Wednesday, Nov 11th
 
 ## Challenge:
 
-Create an [exercism.io](http://exercism.io/) account.
+Complete the next exercise on exercism.ip
 
 
 
 ## Goals:
-* Learn about the Backbone Event System
-* Create a blog viewer
+* Learn about the Browserify and other Build Tools
+* Create TodoMVC
 
 
 ## In-Class Code
