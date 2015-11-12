@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module '/Users/wgolden/dev/_notes/notes/week 06/thursday/code/js/app-browserify.js' from '/Users/wgolden/dev/_notes/notes/week 06/thursday/code'");

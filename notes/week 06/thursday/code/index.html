@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Watchify + HMR + Map = Love</title>
+  </head>
+  <body>
+    <header>
+      Bookshelf!
+      <a href="#">Home</a>
+    </header>
+    <aside class="sidebar"></aside>
+    <main>
+      <h1>Welcome to our movie list page website window screen!</h1>
+      <section class="details"></section>
+    </main>
+
+  <script type="text/template" id="homePageTemplate">
+    <h2>Movies</h2>
+    <section class="sidebar"></section>
+  </script>
+
+  <script type="text/template" id="MovieListTemplate">
+    <ul>
+      <% _.forEach(movies, function(movie){ %>
+        <a href="#movie/<%=movie.id %>">
+          <img src="<%= movie.posters.thumbnail %>" alt="<%= movie.title %>"/>
+        </a>
+      <% }) %>
+    </ul>
+  </script>
+
+  <script type="text/template" id="MovieDetailTemplate">
+    <h2><%= title %></h2>
+    <img src="<%= posters.original %>" alt="<%= title %>"/>
+    <p>Released: <%= year %> / Rated: <%= mpaa_rating %> </p>
+
+
+  </script>
+  <script src="dist/app.js"></script>
+  </body>
+</html>
