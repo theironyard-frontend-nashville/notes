@@ -4,17 +4,17 @@
 
 ## Challenge:
 
-Complete the next exercise on exercism.ip
+Complete the next exercise on exercism.io (hamming)
 
 
 
 ## Goals:
 * Learn about the Browserify and other Build Tools
-* Create TodoMVC
+* Learn about Babel and ES6
 
 
 ## In-Class Code
-[Code that we wrote today](/notes/week 06/tuesday/code)
+[Code that we wrote today](/notes/week 06/wednesday/code)
 
 ## Homework
-* [Contacts List](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week06/tuesday)
+* Blog about Backbone's various parts in depth.
