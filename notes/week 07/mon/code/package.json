@@ -1,0 +1,41 @@
+{
+  "name": "ironyard-boilerplate",
+  "version": "0.1.0",
+  "description": "New Project starting point.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "postinstall": "bower install && gulp",
+    "start": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.9",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "browserify-istanbul": "^0.2.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-sass": "^2.0.4",
+    "isparta": "^3.0.3",
+    "istanbulify": "^0.1.0",
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
+    "jquery": "^2.1.4",
+    "karma": "^0.13.3",
+    "karma-browserify": "^4.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-spec-reporter": "0.0.20",
+    "phantomjs": "^1.9.17",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.2"
+  }
+}
