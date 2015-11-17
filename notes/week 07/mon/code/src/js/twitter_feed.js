@@ -7,8 +7,12 @@ class TwitterFeed extends React.Component {
     super(props);
 
     this.state = {
+      currentTweet: 0,
       tweets: []
     }
+
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
   }
 
   componentDidMount() {
@@ -35,15 +39,37 @@ class TwitterFeed extends React.Component {
     });
   }
 
+
+  previous() {
+    let currentTweet = this.state.currentTweet;
+    this.setState({currentTweet: currentTweet - 1});
+  }
+
+  next() {
+    let currentTweet = this.state.currentTweet;
+    this.setState({currentTweet: currentTweet + 1});
+  }
+
   render () {
-    let tweetItems = this.state.tweets.map(tweet => {
-      return (<Tweet key={tweet.id} username={tweet.username} body={tweet.body}/>)
-    })
+    let tweet;
+
+    if (this.state.tweets.length && this.state.tweets[this.state.currentTweet]) {
+      let currentTweet = this.state.tweets[this.state.currentTweet];
+      tweet = <Tweet key={currentTweet.id} username={currentTweet.username} body={currentTweet.body}/>
+    }
+
+    let isNextEnabled = this.state.currentTweet < this.state.tweets.length - 1;
+    let isPrevEnabled = this.state.currentTweet > 0;
 
     return (
-      <ul>
-        {tweetItems}
-      </ul>
+      <div>
+        <ul>
+          {tweet}
+        </ul>
+
+        <button onClick={this.previous} disabled={!isPrevEnabled}>Previous</button>
+        <button onClick={this.next} disabled={!isNextEnabled}>Next</button>
+      </div>
     )
   }
 }
