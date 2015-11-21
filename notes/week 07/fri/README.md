@@ -1,13 +1,13 @@
 [Table of Contents](/README.md)
 
-# Monday, Nov 16th
+# Friday, Nov 20th
 
 
 
 
 ## Goals:
-* Introduction to React.js, JSX, ES6 Concepts
+* Introduce React Router
 
 
 ## In-Class Code
-[Code that we wrote today](/notes/week 07/mon/code)
+[Code that we wrote today](/notes/week 07/fri/code)
