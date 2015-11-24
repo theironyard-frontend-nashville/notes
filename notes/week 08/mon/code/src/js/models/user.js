@@ -6,7 +6,19 @@ class User {
     this.refresh_token = null;
     this.token_expires = null;
     this.token_created = null;
+    this.listeners = [];
   }
+
+  subscribe(callback) {
+    this.listeners.push(callback);
+  }
+
+  dispatch() {
+    this.listeners.forEach(callback => {
+      callback();
+    });
+  }
+
   isLoggedIn() {
     return this.access_token !== null;
   }
@@ -28,10 +40,11 @@ class User {
       done(error);
     });
   }
+
   login(data, done) {
-    // ajax stuff here!
     let url = 'https://twitterapii.herokuapp.com/oauth/token';
     data.grant_type = 'password';
+
     let options = {
       url: url,
       method: 'POST',
@@ -46,6 +59,7 @@ class User {
       this.token_expires = expires_in;
       this.token_created = created_at;
 
+      this.dispatch();
       //store credentials to a cookie locally or in local storage
 
       done(null, response);

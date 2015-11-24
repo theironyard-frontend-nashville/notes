@@ -1,22 +1,48 @@
 import React from 'react'
 import Tweet from './tweet';
 
-const TWEETS = [
-  {id: 1, email: 'egdelwonk@gmail.com', created_at: '1010101010', body: 'hello how are you?'},
-  {id: 2, email: 'egdelwonk@gmail.com', created_at: '1231313112', body: 'yellow mustard :(X)'},
-  {id: 3, email: 'egdelwonk@gmail.com', created_at: '1010101010', body: 'pickles and bacon'}
-];
+import AddTweet from './add-tweet';
+import TweetModel from '../models/tweet'
+
 
 class Feed extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      tweets: []
+    };
+
+  }
+  componentDidMount() {
+    let model = new TweetModel();
+    model.getAllTweets((error, tweets) => {
+      if (error) {
+        alert('we got an error');
+      } else {
+        this.setState({
+          tweets: tweets
+        });
+      }
+    });
+  }
+
   render () {
-    let items = TWEETS.map(tweet => {
+    let items = this.state.tweets.map(tweet => {
       return <Tweet key={tweet.id} tweet={tweet}/>
     });
 
+    if (!items) {
+      return (<p>Loading.... hang in there little guy.</p>);
+    }
+
     return (
-      <section className="feed">
-        {items}
-      </section>
+      <div>
+        <AddTweet />
+        <section className="feed">
+          {items}
+        </section>
+      </div>
     )
   }
 }

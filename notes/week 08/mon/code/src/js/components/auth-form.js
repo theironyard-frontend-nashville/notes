@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react'
 import User from '../models/user';
-import createLocation from 'history/lib/createLocation';
 
 class AuthForm extends React.Component {
 
@@ -10,6 +9,7 @@ class AuthForm extends React.Component {
     this.handleLogin = this.handleLogin.bind(this);
     this.handleRegister = this.handleRegister.bind(this);
   }
+
 
   handleLogin(e) {
     e.preventDefault();
@@ -23,7 +23,7 @@ class AuthForm extends React.Component {
         password: password
       }, (error, data) => {
         if (!error) {
-          console.log(User.isLoggedIn());
+          // Redirect the user
         } else {
           alert('we had an error');
         }
@@ -71,6 +71,7 @@ class AuthForm extends React.Component {
     return (
       <section className="login">
         <form>
+          <legend>Login or Register</legend>
           <input ref="email" type="text" name="email" placeholder="E-mail"/>
           <input ref="password" type="password" name="password" placeholder="Password"/>
           {confirmPwd}
