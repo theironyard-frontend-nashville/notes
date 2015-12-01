@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+main {
+
+  &::after {
+    clear: both;
+    display: block;
+    content: ""
+  }
+
+  h1 {
+    margin: 5% 0;
+    text-align: center;
+  }
+}
+
+.products {
+  width: 70%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  &::after {
+    clear: both;
+    display: block;
+    content: ""
+  }
+}
+
+.cart {
+  width: 30%;
+  float: left;
+  padding: 5%;
+}
+
+.product {
+  float: left;
+  width: 50%;
+  padding: 5%;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
